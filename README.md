@@ -1,2 +1,62 @@
+# 🛡️ AWS Zero Trust Lab – Enforcing Identity-Based Segmentation and Conditional Access
 
+This project simulates a Zero Trust architecture using AWS-native tools and services. It demonstrates how cloud resources can be protected without relying on traditional network boundaries, following the core Zero Trust principles of **least privilege**, **explicit verification**, and **no implicit trust**.
+
+---
+
+## 📌 Project Goal
+
+To showcase how **Zero Trust Security** can be implemented on AWS through identity-based access control, segmentation, logging, and least privilege enforcement.
+
+---
+
+## 🧩 Modules (Pending ✅❌)
+
+| Module | Description | Status |
+|--------|-------------|--------|
+| `identity-aware-access/` | Role-based IAM access with permission boundaries. | ❌ Pending |
+| `s3-private-access/` | Restrict S3 access to private VPC endpoints only. | ❌ Pending |
+| `microsegmentation-vpc/` | Subnet-level isolation using NACLs and Security Groups. | ❌ Pending |
+| `zero-trust-ingress/` | Ingress filtering with AWS WAF and ALB controls. | ❌ Pending |
+| `no-implicit-trust/` | Explicit deny policies and condition-based access enforcement. | ❌ Pending |
+| `logging-and-verification/` | CloudTrail, GuardDuty, and alerting setup for visibility and incident response. | ❌ Pending |
+
+> ✅ Modules will be updated with links and documentation as each is completed.
+
+---
+
+## 🧠 Concepts Used
+
+- Zero Trust Architecture
+- Identity-Based Access Control (IBAC)
+- AWS IAM, VPC, S3, WAF, ALB, GuardDuty, CloudTrail
+- Principle of Least Privilege
+- Conditional Access (based on IP, tags, VPC, etc.)
+
+---
+
+## 🛠️ Tools & Services
+
+- **AWS IAM** – Roles, Policies, Permission Boundaries  
+- **S3** – Private data access with VPC endpoints  
+- **VPC** – Microsegmentation via SGs and NACLs  
+- **WAF + ALB** – Ingress filtering and routing control  
+- **CloudTrail + GuardDuty** – Auditing and threat detection  
+
+---
+
+## 🚧 Work in Progress
+
+This is a hands-on, live-built repository. Each module will contain:
+
+- 📁 Terraform / AWS CLI Scripts  
+- 🔍 Test Cases & Results  
+- 📝 `results.md` for explanation  
+- 📸 Screenshots (if needed)
+
+---
+
+## 📣 Stay Updated
+
+Follow this repo to track the hands-on journey toward mastering **Zero Trust on AWS**.
 
